@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "0hv2zbbCMc1Z9kWAL3txZrUVNaDBDUhkwW5sBJMEKJg=",
+  "Source": "MongoBackend",
+  "BasePath": "_content/MongoBackend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

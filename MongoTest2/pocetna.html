@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oceni projekat</title>
+    <link rel="stylesheet" type="text/css" href="stil.css" />
+  </head>
+  <body>
+    <nav>
+      <h2>MongoDB</h2>
+      <div class="nav-btns">
+        <button class="admin-btn">Admin</button>
+        <button class="dugme-odjava">Odjavi se</button>
+      </div>
+    </nav>
+    <div class="hero">
+      <div class="hero-top">
+        <div class="control-div">
+          <button class="display-form">Dodaj projekat</button>
+          <button class="ocenjeni-projekti-btn">Ocenjeni</button>
+          <button class="neocenjeni-projekti-btn">Neocenjeni</button>
+          <button class="izmeni-sifru-btn">Izmeni Sifru</button>
+        </div>
+        <form id="postForm" class="sakrij">
+          <label for="title">Naslov</label><br />
+          <input type="text" id="title" name="title" /><br />
+
+          <label for="studentId">Broj indeksa</label><br />
+          <input type="text" id="studentId" name="studentId" /><br />
+
+          <label for="description">Opis</label><br />
+          <textarea id="description" name="description"></textarea><br />
+
+          <label for="repoLink">Link do projekta</label><br />
+          <input type="text" id="repoLink" name="repoLink" /><br />
+          <div class="submit-div">
+            <input type="submit" value="Posalji" />
+          </div>
+        </form>
+      </div>
+      <div class="hero-bottom"></div>
+    </div>
+    <footer></footer>
+    <script type="module" src="pocetnaScript.js"></script>
+  </body>
+</html>

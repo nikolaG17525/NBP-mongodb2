@@ -1,0 +1,301 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sakrij {
+  display: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e8e7d5;
+}
+
+.nav-btns {
+  margin-right: 40px;
+}
+
+nav button {
+  padding: 10px 15px;
+  font-size: 18px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+nav button:hover {
+  background-color: #3fa037;
+  color: white;
+  cursor: pointer;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+  z-index: 99;
+}
+
+nav h2 {
+  margin: 0 40px;
+}
+
+nav button {
+  background-color: white;
+  border: 1px solid #3fa037;
+  padding: 7px 15px;
+}
+
+.hero {
+  margin: 0 auto;
+  width: 800px;
+  margin-bottom: 75px;
+}
+
+footer {
+  background-color: #434343;
+  color: #fff;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.post-div {
+  background-color: white;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+  padding: 20px 40px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.post-div h2 {
+  font-size: 28px;
+}
+
+.post-div p {
+  color: #39393a;
+  font-size: 18px;
+}
+
+.post-div a {
+  color: #3fa037;
+}
+
+.post-details-top,
+.post-details-middle {
+  margin-bottom: 30px;
+}
+
+.post-details-middle p {
+  margin-bottom: 10px;
+}
+
+.post-details-buttons,
+.post-details-bottom {
+  margin-bottom: 15px;
+}
+
+.post-details-top {
+  padding-top: 20px;
+}
+
+.post-details-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.post-details-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.post-details-buttons button {
+  padding: 10px 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4db33d;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.post-details-buttons button:hover {
+  background-color: #3fa037;
+}
+
+form {
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+  padding: 40px 40px 20px 40px;
+}
+
+label {
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+}
+
+input[type="submit"] {
+  padding: 10px 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4db33d;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+input[type="submit"]:hover {
+  background-color: #3fa037;
+}
+
+.submit-div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.control-div {
+  display: flex;
+  background-color: white;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.control-div button {
+  width: 146px;
+  padding: 10px 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4db33d;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.control-div button:hover {
+  background-color: #3fa037;
+}
+
+.comment-div {
+  background-color: white;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+  padding: 20px 40px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.comment-div .comment-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.comment-div button {
+  width: 100px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4db33d;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.comment-div button:hover {
+  background-color: #3fa037;
+}
+
+.comment-div .comment-author {
+  color: #8d8d8d;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.comment-div p {
+  color: #39393a;
+  font-size: 18px;
+}
+
+.post-div {
+  position: relative;
+}
+
+.btn-vise {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 100px;
+  padding: 10px 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid #4db33d;
+  color: #4db33d;
+  cursor: pointer;
+  margin-left: 10px;
+  background-color: white;
+}
+
+.btn-vise:hover {
+  cursor: pointer;
+  background-color: #3fa037;
+  color: white;
+}
+
+.div-sifra {
+  background-color: white;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+  padding: 20px 40px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding-top: 30px;
+}
+
+.div-sifra button {
+  width: 100px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4db33d;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 5px;
+  float: right;
+}
+
+.div-sifra button:hover {
+  background-color: #3fa037;
+}
